@@ -1,7 +1,7 @@
 import companyLogo from '../../../../../../src/assets/images/CompanyLogo.jpg'
 const Footer = () => {
     return (
-        <div className='lg:m-8 ml-12  lg:w-[1450px] lg:h-[300px] h-[200px] w-[300px] '>
+        <div className='lg:m-8 ml-12  '>
             <footer className="footer p-10 bg-base-200 text-base-content rounded-xl">
                 <aside>
                     <img className='lg:w-[200px] w-[300px] lg:ml-0  border-2 rounded-lg' src={companyLogo} alt="" />

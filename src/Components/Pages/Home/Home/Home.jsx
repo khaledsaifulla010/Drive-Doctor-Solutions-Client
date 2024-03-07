@@ -1,10 +1,9 @@
-import Footer from "../Shared/Footer/Footer";
 
 const Home = () => {
     return (
         <div>
-            <h1>This is Home</h1>
-            <Footer></Footer>
+            <h1 className="text-center text-xl font-bold">This is Home</h1>
+            
         </div>
     );
 };
