@@ -1,11 +1,11 @@
 import companyLogo from '../../../../../../src/assets/images/CompanyLogo.jpg'
 const Footer = () => {
     return (
-        <div className='m-8 '>
+        <div className='lg:m-8 ml-12  lg:w-[1450px] lg:h-[300px] h-[200px] w-[300px] '>
             <footer className="footer p-10 bg-base-200 text-base-content rounded-xl">
                 <aside>
-                    <img className='w-[200px] border-2 rounded-lg' src={companyLogo} alt="" />
-                    <p ><span className='font-bold text-orange-500'>Drive Doctor Solutions</span><br /><span className='font-semibold'> &copy; All Right Reserved by Drive Doctor Solutions</span> </p>
+                    <img className='lg:w-[200px] w-[300px] lg:ml-0  border-2 rounded-lg' src={companyLogo} alt="" />
+                    <p ><span className='font-bold text-orange-500 lg:ml-0 ml-8 '>Drive Doctor Solutions</span><br /><span className='font-semibold lg:ml-0 -ml-6'> &copy; <small>All Right Reserved by Drive Doctor Solutions</small></span> </p>
                 </aside>
                 <nav>
                     <h6 className="footer-title">Services</h6>
