@@ -28,7 +28,7 @@ const Login = () => {
                                 </label>
                             </div>
                             <div className='mt-10'>
-                                <button className='border-2 w-[430px] h-[50px] ml-4 rounded-lg p-2 bg-orange-500 font-bold text-lg text-white'>Sign in</button>
+                                <button className='border-2 w-[430px] h-[50px] ml-4 rounded-lg p-2 bg-orange-500 font-bold text-lg text-white'>Log in</button>
                             </div>
                             <div className='flex items-center mt-10 ml-32 gap-12'>
                                 <button><FcGoogle className='text-4xl'></FcGoogle></button>
