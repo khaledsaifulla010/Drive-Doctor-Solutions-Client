@@ -1,7 +1,20 @@
-
+import Marquee from "react-fast-marquee";
 const Blog = () => {
     return (
         <div>
+            <div className="w-[1452px] m-8 p-2 text-lg border-2 rounded-lg">
+                <Marquee className="font-bold " speed={70} pauseOnHover>
+                    <p>Blog 1: Understanding the Importance of Regular Car Maintenance === Regular car maintenance is the cornerstone of keeping your vehicle running smoothly and efficiently. As the heartbeat of Drive Doctor Solutions, we recognize the critical role maintenance plays in prolonging the lifespan of your vehicle and ensuring your safety on the road.
+
+                        First and foremost, regular maintenance helps to identify and address potential issues before they escalate into costly repairs. From routine oil changes to brake inspections, staying ahead of maintenance schedules can save you both time and money in the long run.
+
+                        Moreover, regular maintenance enhances the overall performance of your vehicle. A well-tuned engine, properly inflated tires, and clean filters contribute to improved fuel efficiency and smoother driving experience. This not only saves you money at the pump but also reduces harmful emissions, promoting environmental sustainability.
+
+                        Lastly, prioritizing regular maintenance enhances safety for you and your passengers. From checking the integrity of brake pads to inspecting the suspension system, preventative maintenance measures significantly reduce the risk of unexpected breakdowns and accidents on the road.
+
+                        At Drive Doctor Solutions, we emphasize the importance of proactive car care to ensure that your vehicle remains in optimal condition. By staying committed to routine maintenance schedules, you can enjoy a smoother, safer, and more efficient driving experience for years to come.</p>
+                </Marquee>
+            </div>
             <div className="w-[820px] p-4 h-[480px] border-4 ml-[360px] mt-20 rounded-lg">
                 <div className="w-[540px] font-bold bg-slate-300  p-1 border-2  rounded-lg ml-32 mt-4">
                     <h1 className="text-center">Blog 1: Understanding the Importance of Regular Car Maintenance</h1>
