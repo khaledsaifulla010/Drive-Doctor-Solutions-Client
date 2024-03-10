@@ -1,6 +1,6 @@
-import member1 from '../../../../../assets/images/team/2.jpg'
-import member2 from '../../../../../assets/images/team/1.jpg'
-import member3 from '../../../../../assets/images/team/3.jpg'
+import member1 from '../../../../assets/images/team/2.jpg'
+import member2 from '../../../../assets/images/team/1.jpg'
+import member3 from '../../../../assets/images/team/3.jpg'
 
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
