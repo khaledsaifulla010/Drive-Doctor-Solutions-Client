@@ -1,4 +1,4 @@
-import companyLogo from '../../../../../../src/assets/images/CompanyLogo.jpg'
+import companyLogo from '../../../../../../src/assets/images/checkout/CompanyLogo.jpg'
 const Footer = () => {
     return (
         <div className='lg:m-8 ml-12  '>

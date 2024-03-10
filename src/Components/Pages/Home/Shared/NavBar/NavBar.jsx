@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import companyLogo from '../../../../../assets/images/CompanyLogo.jpg'
+import companyLogo from '../../../../../assets/images/checkout/CompanyLogo.jpg'
 const NavBar = () => {
     return (
         <div className="m-8 border-2 rounded-lg">
