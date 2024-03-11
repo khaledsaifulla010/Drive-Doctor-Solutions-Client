@@ -1,15 +1,15 @@
 /* eslint-disable no-unused-vars */
 import { useContext } from 'react';
 import logInPage from '../../../assets/images/login/login.svg'
-import { AuthContext } from '../../Provider/AuthProvider/AuthProvider';
 import Swal from 'sweetalert2';
+import UseAuth from '../../Provider/AuthHooks/UseAuth';
 
 
 
 const SignUp = () => {
-    const { createUser } = useContext(AuthContext);
+    const { signUp } = UseAuth()
 
-    const handleSignUp = event => {
+    const handleSubmit= event => {
         event.preventDefault();
         const email = event.target.email.value;
         const password = event.target.password.value;
@@ -17,7 +17,7 @@ const SignUp = () => {
 
 
         //create User
-        createUser(email, password)
+        signUp(email, password)
             .then(result => {
 
                 Swal.fire({
@@ -53,7 +53,7 @@ const SignUp = () => {
                         <h1 className='text-4xl font-bold text-center mt-8 underline'>Please Sign Up</h1>
                     </div>
                     <div className='mt-10 ml-4'>
-                        <form onSubmit={handleSignUp} action="">
+                        <form onSubmit={handleSubmit} action="">
                             <div className='form-control'>
                                 <label className=' space-y-1 font-bold'>
                                     <span className="ml-4"> Email</span> <br />

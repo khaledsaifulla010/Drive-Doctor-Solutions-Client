@@ -20,33 +20,28 @@ const AuthProvider = ({ children }) => {
     }
 
 
-    //Create User
+    //Sign Up
 
-    const createUser = (email, password) => {
+    const signUp = (email, password) => {
+        return createUserWithEmailAndPassword(auth, email, password)
+
+    }
+    //login
+    const login = (email, password) => {
         return createUserWithEmailAndPassword(auth, email, password)
 
     }
 
 
 
+
     //Obtect for all access its children
     const authentications = {
         googleLogin,
-        createUser
+        signUp,
+        login
+
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
     return (
         <AuthContext.Provider value={authentications} >
             {children}
