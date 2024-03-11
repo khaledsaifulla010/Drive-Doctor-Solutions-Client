@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 import { createContext } from "react";
-import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import { GoogleAuthProvider, createUserWithEmailAndPassword, signInWithPopup } from "firebase/auth";
 import { auth } from "../../Firebase/firebaseConfig";
 
 
@@ -19,9 +20,21 @@ const AuthProvider = ({ children }) => {
     }
 
 
-    const authentications ={
-        googleLogin
+    //Create User
+
+    const createUser = (email, password) => {
+        return createUserWithEmailAndPassword(auth, email, password)
+
     }
+
+
+
+    //Obtect for all access its children
+    const authentications = {
+        googleLogin,
+        createUser
+    }
+
 
 
 
@@ -36,7 +49,7 @@ const AuthProvider = ({ children }) => {
 
     return (
         <AuthContext.Provider value={authentications} >
-        {children}
+            {children}
         </AuthContext.Provider>
     );
 };
