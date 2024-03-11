@@ -6,8 +6,10 @@ import Services from "../../Pages/Services/Services";
 import Blog from "../../Pages/Blog/Blog";
 import Contact from "../../Pages/Contact/Contact";
 import ErrorPage from "../../Pages/Home/ErrorPage/ErrorPage";
-import SignUp from "../../Pages/Authentication/SignUp/SignUp";
-import Login from "../../Pages/Authentication/Login/Login";
+import Login from "../../Authentications/Login/Login";
+
+
+
 
 
 const router = createBrowserRouter([
@@ -39,11 +41,8 @@ const router = createBrowserRouter([
             {
                 path: '/login',
                 element: <Login></Login>
-            },
-            {
-                path: '/signUp',
-                element: <SignUp></SignUp>
             }
+
         ]
     },
 ]);
