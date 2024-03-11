@@ -2,13 +2,27 @@ import logInPage from '../../../../assets/images/login/login.svg'
 import { FaFacebook } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 import { FaGithub } from "react-icons/fa";
+
+
+
+
+
+
+
+
 const Login = () => {
+
+
 
 
 
 
     const handleLogin = event => {
         event.preventDefault();
+        const email = event.target.email.value;
+        const password = event.target.password.value;
+        console.log(email, password)
+
 
     }
 
@@ -43,7 +57,7 @@ const Login = () => {
 
                         </form>
                         <div className='flex items-center mt-10 ml-32 gap-12'>
-                            <button><FcGoogle className='text-4xl'></FcGoogle></button>
+                            <button ><FcGoogle className='text-4xl'></FcGoogle></button>
                             <button><FaFacebook className='text-blue-700 text-4xl'></FaFacebook></button>
                             <button><FaGithub className='text-4xl'></FaGithub></button>
                         </div>

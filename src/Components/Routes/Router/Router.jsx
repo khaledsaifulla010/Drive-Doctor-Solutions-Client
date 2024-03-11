@@ -6,8 +6,8 @@ import Services from "../../Pages/Services/Services";
 import Blog from "../../Pages/Blog/Blog";
 import Contact from "../../Pages/Contact/Contact";
 import ErrorPage from "../../Pages/Home/ErrorPage/ErrorPage";
-import Login from "../../Pages/Authentication/Login/Login";
 import SignUp from "../../Pages/Authentication/SignUp/SignUp";
+import Login from "../../Pages/Authentication/Login/Login";
 
 
 const router = createBrowserRouter([
