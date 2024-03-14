@@ -15,9 +15,9 @@ const NavBar = () => {
                             <li>
 
                                 <Link to={'/'}><li><a>Home</a></li></Link>
-                                <Link to={'/about'}><li><a>About</a></li></Link>
                                 <Link to={'/services'}><li><a>Services</a></li></Link>
                                 <Link to={'/blog'}><li><a>Blog</a></li></Link>
+                                <Link to={'/about'}><li><a>About</a></li></Link>
                                 <Link to={'/contact'}><li><a>Contact</a></li></Link>
                                 <Link to={'/login'}><li><a>Log In </a></li></Link>
                                 <Link to={'/signUp'}><li><a>Sign Up</a></li></Link>
@@ -34,9 +34,9 @@ const NavBar = () => {
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 font-bold text-lg">
                         <Link to={'/'}><li><a>Home</a></li></Link>
-                        <Link to={'/about'}><li><a>About</a></li></Link>
                         <Link to={'/services'}><li><a>Services</a></li></Link>
                         <Link to={'/blog'}><li><a>Blog</a></li></Link>
+                        <Link to={'/about'}><li><a>About</a></li></Link>
                         <Link to={'/contact'}><li><a>Contact</a></li></Link>
                         <Link to={'/login'}><li><a>Log In</a></li></Link>
                         <Link to={'/signUp'}><li><a>Sign Up</a></li></Link>

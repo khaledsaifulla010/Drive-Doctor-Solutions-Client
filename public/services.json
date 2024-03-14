@@ -1,0 +1,44 @@
+[
+    {
+        "service_id": 1,
+        "title": "Oil Change",
+        "price": 50,
+        "image": "https://i.ibb.co/4dgCTYv/1-oil-change.jpg",
+        "description": "Regular oil change service to keep your engine running smoothly."
+    },
+    {
+        "service_id": 2,
+        "title": "Tire Rotation",
+        "price": 30,
+        "image": "https://i.ibb.co/47DytQK/2-Tire-Rotation.jpg",
+        "description": "Rotate tires to ensure even wear and prolong tire life."
+    },
+    {
+        "service_id": 3,
+        "title": "Brake Inspection",
+        "price": 40,
+        "image": "https://i.ibb.co/hCyHRLX/3-Brake-Inspection.jpg",
+        "description": "Thorough inspection of brake system components for safety."
+    },
+    {
+        "service_id": 4,
+        "title": "Wheel Alignment",
+        "price": 60,
+        "image": "https://i.ibb.co/RcJD20K/4-Wheel-Alignment.jpg",
+        "description": "Align wheels properly to improve handling and tire longevity."
+    },
+    {
+        "service_id": 5,
+        "title": "Engine Tune-Up",
+        "price": 80,
+        "image": "https://i.ibb.co/p37fPPK/5-Engine-Tune-Up.jpg",
+        "description": "Comprehensive tune-up to optimize engine performance."
+    },
+    {
+        "service_id": 6,
+        "title": "Battery Replacement",
+        "price": 100,
+        "image": "https://i.ibb.co/R6fgQDP/6-Battery-Replacement.jpg",
+        "description": "Replace old or failing batteries with new ones for reliable starts."
+    }
+]
